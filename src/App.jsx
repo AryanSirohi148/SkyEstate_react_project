@@ -1,17 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import Navbar from './components/Navbar'
 
-function App() {
-
+const App = () => {
   return (
     <div>
-      <div className='text-3xl font-bold underline' >
-        hello ji
-      </div>
+       <Navbar/>
+      
     </div>
-
   )
 }
 
